@@ -2,12 +2,14 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
+import {MeuComponente1Component} from './meucomponente1/meucomponente1.component';
+
 
 @NgModule({
   imports : [BrowserModule], // outros módulos usados
   exports : [], // tornar visível um componente, pipe...
   providers : [], // conjunto de serviços que estarão disponíveis para este módulo
-  declarations : [AppComponent], // conjunto de componentes do módulo
+  declarations : [AppComponent,MeuComponente1Component], // conjunto de componentes do módulo
   bootstrap : [AppComponent] // é o conjunto de componentes pelo qual a aplicação web iniciará execução
 })
 
