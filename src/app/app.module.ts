@@ -3,10 +3,10 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {MeuComponente1Component} from './meucomponente1/meucomponente1.component';
-
+import {Func1Module} from './func1/func1.module';
 
 @NgModule({
-  imports : [BrowserModule], // outros módulos usados
+  imports : [BrowserModule, Func1Module], // outros módulos usados
   exports : [], // tornar visível um componente, pipe...
   providers : [], // conjunto de serviços que estarão disponíveis para este módulo
   declarations : [AppComponent,MeuComponente1Component], // conjunto de componentes do módulo
