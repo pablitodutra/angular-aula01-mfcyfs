@@ -16,3 +16,4 @@ import {Func1Module} from './func1/func1.module';
 export class AppModule {
 
 }
+ 

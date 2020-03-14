@@ -8,5 +8,11 @@ import {Component} from '@angular/core';
 })
 
 export class AppComponent {
+ // Atributo 
+ titulo : string;
 
+ // Construtor da classe 
+ constructor(){
+   this.titulo = "Título da minha aplicação";
+ }
 }
